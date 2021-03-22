@@ -1,7 +1,7 @@
 <?php
-$servername = "127.0.0.1";
+$servername = "localhost";
 $username = "root";
-$password = "BBCrad101";
+$password = "NYg1@nts";
 $dbname = "soundcloud";
 // // Create connection
 // $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -11,7 +11,7 @@ $dbname = "soundcloud";
 // }
 
 function db_connect() {
-  $pdo = new \PDO("mysql:host=127.0.0.1;dbname=soundcloud", 'root', 'BBCrad101', [
+  $pdo = new \PDO("mysql:host=127.0.0.1;dbname=soundcloud", 'root', 'NYg1@nts', [
       \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
       \PDO::ATTR_EMULATE_PREPARES => false
   ]);
